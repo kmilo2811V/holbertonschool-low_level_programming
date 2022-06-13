@@ -1,7 +1,7 @@
-#include <stdio.h>
+#!/bin/bash
 int main(void)
 {
-  printf ("Programming is like building a multilingual puzzle) ;
+("Programming is like building a multilingual puzzle) ;
 putchar(printf) ;
 return 0 ;
 }
