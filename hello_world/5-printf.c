@@ -1,6 +1,6 @@
-#!/bin/bash
+#include <stdio.h>
    /**
-    *main-impresin
+    *main - impresin
     *
     *Return: retorna 0
     */
