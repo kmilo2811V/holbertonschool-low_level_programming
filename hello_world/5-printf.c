@@ -1,6 +1,6 @@
 #include <stdio.h>
    /**
-    *main - impresin
+    *main - impresion
     *
     *Return: retorna 0
     */
