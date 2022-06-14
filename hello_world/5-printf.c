@@ -1,6 +1,6 @@
 #include <stdio.h>
    /**
-    *main - impresion
+    *main - impresion of prueba
     *
     *Return: retorna 0
     */
