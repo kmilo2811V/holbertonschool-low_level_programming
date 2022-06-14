@@ -1,7 +1,8 @@
-#!/bin/bash
+#include <studio.h>
 int main(void)
-{ printf("programming is like building a multilingual puzze:\n");
-  gets(cadena);
-  printf("programming is like building a multilingual puzze:\n");
-  puts(cadena);
-  return 0;}
+{
+  int a;
+  printf("\n "Programming is like building a multilingual puzzle: ");
+  scanf("%d", $a);
+  return (0);
+}
