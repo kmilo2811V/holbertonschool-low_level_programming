@@ -1,8 +1,10 @@
 #include <studio.h>
+/**
+ *main - impresion
+ *
+ *return: retorna 0
+ */
 int main(void)
-{
-  int a;
-  printf("\n "Programming is like building a multilingual puzzle: ");
-  scanf("%d", $a);
-  return (0);
+{puts(*\"Programming is like building a multilingual puzzle");
+return (0);
 }
