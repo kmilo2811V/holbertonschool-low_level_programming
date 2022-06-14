@@ -1,7 +1,7 @@
 #!/bin/bash
 int main(void)
-{
-("Programming is like building a multilingual puzzle) ;
-putchar(printf) ;
-return 0 ;
-}
+{ printf("programming is like building a multilingual puzze:\n");
+  gets(cadena);
+  printf("programming is like building a multilingual puzze:\n");
+  puts(cadena);
+  return 0;}
