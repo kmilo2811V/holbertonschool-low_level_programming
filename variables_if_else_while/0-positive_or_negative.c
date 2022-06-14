@@ -7,8 +7,14 @@
  */
 int main(void)
 {
-  int
+  int n;
 
-    strand((time))(0);
-  n =rand() -Rand_max / 2
-    if (f ==0)
+  srand(time(0);
+	if (n == =)
+	  printf("%d is zero\n", n);
+	else if (n>0)
+	  printf("%d is positive\n", n);
+	else
+	  printf("%d is negative\n", n);
+	return (0);
+	}
