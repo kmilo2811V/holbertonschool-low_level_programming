@@ -1,10 +1,10 @@
-#include <studio.h>
+#include <stdio.h>
 /**
  *main - impresion
  *
- *return: retorna 0
+ *Return: retorna 0
  */
 int main(void)
-{puts(*\"Programming is like building a multilingual puzzle");
+{puts("\"Programming is like building a multilingual puzzle");
 return (0);
 }
