@@ -9,18 +9,18 @@
 
 int main(void)
 {
-  int abc = 'a';
-  int ABC = 'A';
-  while (abc <= 'z')
-    {
-      putchar(abc);
-      abc++;
-   }
-  while (ABC <= 'z')
-    {
-      putchar(ABC);
-      ABC++;
-    }
-  putchar('\n');
-  return (0);
+int abc = 'a';
+int ABC = 'A';
+while (abc <= 'z')
+{
+putchar(abc);
+abc++;
+}
+while (ABC <= 'z')
+{
+putchar(ABC);
+ABC++;
+}
+putchar('\n');
+return (0);
 }
