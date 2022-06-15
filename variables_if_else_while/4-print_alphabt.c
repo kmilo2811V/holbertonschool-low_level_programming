@@ -1,21 +1,20 @@
+#include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-#include <stdio.h>
 /**
- *main - printf vocavulary excep q and e
- *
- *Return: return zero
+ * main - the function print the alphabet in minus
+ * Return: 0
  */
-
 int main(void)
 {
-int abc = 'a';
-while (abc <= 'd')
-while (abc <= 'p')
+char c;
+
+for (c = 97 ; c < 123 ; c++)
 {
-putchar(abc);
-abc++;
+if (c == 101 || c == 113)
+c++;
+putchar(c);
 }
-putchar('\n');
+putchar(10);
 return (0);
 }
