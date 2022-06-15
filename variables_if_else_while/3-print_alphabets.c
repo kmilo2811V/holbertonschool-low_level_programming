@@ -2,10 +2,10 @@
 #include <time.h>
 #include <stdio.h>
 /**
- *main - print the vocabulary
- *
- *Return: return zero
- */
+*main - print the vocabulary
+*
+*Return: return zero
+*/
 
 int main(void)
 {
@@ -16,7 +16,7 @@ while (abc <= 'z')
 putchar(abc);
 abc++;
 }
-while (ABC <= 'z')
+while (ABC <= 'Z')
 {
 putchar(ABC);
 ABC++;
