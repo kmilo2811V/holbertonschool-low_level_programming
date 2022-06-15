@@ -6,14 +6,16 @@
  *
  *Return: return zero
  */
+putchar(abc);
+abc++;
 
 int main(void)
 {
-  char abc = 'a';
-  while (abc <= 'z' )
-    {
-      putchar(abc);
-      abc++;
-    }
-  return (0);
+char abc = 'a';
+while (abc <= 'z')
+{
+putchar(abc);
+abc++;
+}
+return (0);
 }
