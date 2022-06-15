@@ -6,8 +6,6 @@
  *
  *Return: return zero
  */
-putchar(abc);
-abc++;
 
 int main(void)
 {
