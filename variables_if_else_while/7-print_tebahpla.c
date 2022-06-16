@@ -9,7 +9,7 @@
 int main(void)
 {
 char zyx = 'z';
-while(zyx =< 'a')
+while(zyx => 'a')
 {
 putchar(zyx);
 zyx++;
