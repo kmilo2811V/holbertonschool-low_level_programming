@@ -2,15 +2,15 @@
 #include <stdlib.h>
 #include <time.h>
 /**
- *main - print the vocabulary
- *
- * Return: 0
- */
+*main - print the vocabulary
+*
+* Return: return zero
+*/
 
 int main(void)
 {
 int i;
-for (i = 48 ; i <= 57 ; i++)
+for (i = 48; i <= 57; i++)
 {
 putchar(i);
 if (i != 57)
@@ -20,4 +20,5 @@ putchar(' ');
 }
 {
 putchar('\n');
+}
 }
