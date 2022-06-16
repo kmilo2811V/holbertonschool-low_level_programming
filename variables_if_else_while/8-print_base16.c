@@ -4,10 +4,10 @@
 /**
  *main - print the vocabulary
  *
- *Return zero
+ *Return: return zero
  */
 
-int maint(void)
+int main(void)
 {
 int abc = 'a';
 int i;
