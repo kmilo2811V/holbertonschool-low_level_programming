@@ -8,12 +8,12 @@
 
 int main(void)
 {
-char zyx = 'z';
-while(zyx => 'a')
+char abc = 'z';
+while (abc <= 'a')
 {
-putchar(zyx);
-zyx++;
+putchar(abc);
+abc--;
 }
-putchar(10);
+putchar("\n");
 return (0);
 }
