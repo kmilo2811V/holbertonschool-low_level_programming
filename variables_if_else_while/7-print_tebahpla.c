@@ -9,11 +9,11 @@
 int main(void)
 {
 char abc = 'z';
-while (abc <= 'a')
+while (abc >= 'a')
 {
 putchar(abc);
-abc--;
+(abc--);
 }
-putchar("\n");
+putchar(10);
 return (0);
 }
