@@ -2,12 +2,12 @@
 #include <time.h>
 #include <stdio.h>
 /**
-* main - print the vocabulary
-*
-* Return zero
-*/
+ *main - print the vocabulary
+ *
+ *Return zero
+ */
 
-int main(void)
+int maint(void)
 {
 int abc = 'a';
 int i;
