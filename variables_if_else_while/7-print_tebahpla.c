@@ -3,7 +3,6 @@
 #include <stdlib.h>
 /**
 *main - print the vocabulario
-*
 *Return: return zero
 */
 
@@ -15,6 +14,6 @@ while(zyx <= 'a')
 putchar(zyx);
 zyx++;
 }
-putchar('\n');
+putchar(10);
 return (0);
 }
