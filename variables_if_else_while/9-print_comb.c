@@ -2,23 +2,22 @@
 #include <stdlib.h>
 #include <time.h>
 /**
-*main - print the vocabulary
-*
-* Return: return zero
-*/
-
+ * main - the number 0-9
+ * Return: 0
+ */
 int main(void)
 {
 int i;
-for (i = 48; i <= 57; i++)
+
+for (i = 48 ; i < 58 ; i++)
 {
 putchar(i);
 if (i != 57)
-putchar(',');
-if (i <= 56)
-putchar(' ');
-}
 {
-putchar('\n');
+putchar(44);
+putchar(32);
 }
+}
+putchar(10);
+return (0);
 }
