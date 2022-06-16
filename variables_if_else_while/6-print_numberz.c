@@ -10,7 +10,8 @@ int main(void)
 {
 int n;
 
-for (n = 0; 10; n++)
-putchar(n);}
-return(0);
+for (n = 0; n < 10; n++)
+putchar(n);
+putchar(10);
+return (0);
 }
