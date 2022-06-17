@@ -1,19 +1,19 @@
-#include <main.c>
+#include "main.h"
 /**
- * main - Write a function that prints the alphabet, in lowercase.
- *
- * Return: always 0
- */
+*main - print_alphabet
+*Dcription
+*Return: On success 1
+*@void: print alphabet
+*/
 
-int main(void)
+void print_alphabet(void)
+
 {
-print_alphabet_x(a, z);
-return (0);
+char c;
+
+for (c = 'a' ; c <= 'z' ; c++)
 {
-while(a < z)
-{
-_putchar("value of a: %d\n", a);
-a++;
+_putchar(c);
 }
-Return 0;
+_putchar('\n');
 }
