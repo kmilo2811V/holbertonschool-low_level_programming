@@ -1,7 +1,7 @@
 #include "main.h"
 /**
-*main - print_alphabet
-*Dcription
+*print_alphabet - funtion print alphabet
+*Dcription: print
 *Return: On success 1
 *@void: print alphabet
 */
