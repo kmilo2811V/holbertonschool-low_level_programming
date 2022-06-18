@@ -11,7 +11,7 @@ int alphabet;
 for (new_line = 1; new_line <= 10; new_line++)
 {
 for (alphabet = 97; alphabet <= 122; alphabet++)
-_putchar(alphabet);
+_putchar(new_line);
 _putchar('\n');
 }
 }
